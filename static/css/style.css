@@ -1,0 +1,19 @@
+.container {
+    text-align: center;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.flex-box-container {
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.flex-box-container div {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
